@@ -1,0 +1,679 @@
+# EESchema Netlist Version 1.1 created  lun. 21 mars 2011 23:35:05 CET
+(
+ ( /4D87C08B $noname  P9 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 N-000022 )
+  (    3 +5VD )
+  (    4 N-000024 )
+ )
+ ( /4D87BFF8 $noname  L1 INDUCTOR {Lib=INDUCTOR}
+  (    1 +5VD )
+  (    2 N-000059 )
+ )
+ ( /4D87BFA7 $noname  D3 LED {Lib=LED}
+  (    1 N-000001 )
+  (    2 GND )
+ )
+ ( /4CF02574 $noname  P8 CAVALIER {Lib=CAVALIER}
+  (    1 +5VD )
+  (    2 +5V )
+ )
+ ( /4CF022AD $noname  P7 HE10-16 {Lib=HE10-16}
+  (    1 GND )
+  (    2 +5V )
+  (    3 N-000017 )
+  (    4 /RS )
+  (    5 /R/W )
+  (    6 /E )
+  (    7 /D0 )
+  (    8 /D1 )
+  (    9 /D2 )
+  (   10 /D3 )
+  (   11 /D4 )
+  (   12 /D5 )
+  (   13 /D6 )
+  (   14 /D7 )
+  (   15 +5V )
+  (   16 GND )
+ )
+ ( /4C4C54FC $noname  C8 10n {Lib=C}
+  (    1 +5VD )
+  (    2 GND )
+ )
+ ( /4C4C54F9 $noname  C7 10n {Lib=C}
+  (    1 +5VD )
+  (    2 GND )
+ )
+ ( /4C4C54F7 $noname  C6 10n {Lib=C}
+  (    1 +5VD )
+  (    2 GND )
+ )
+ ( /4C4C54F4 $noname  C5 10n {Lib=C}
+  (    1 +5VD )
+  (    2 GND )
+ )
+ ( /4C4C54F1 $noname  C4 10n {Lib=C}
+  (    1 +5VD )
+  (    2 GND )
+ )
+ ( /4C4C54D9 $noname  C3 10n {Lib=C}
+  (    1 N-000059 )
+  (    2 GND )
+ )
+ ( /4C4C54A4 $noname  K1 CONN_2 {Lib=CONN_2}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /4C4C5469 $noname  D2 vert {Lib=LED}
+  (    1 +5V )
+  (    2 N-000012 )
+ )
+ ( /4C4C5468 $noname  R10 1,5k {Lib=R}
+  (    1 N-000012 )
+  (    2 GND )
+ )
+ ( /4C4C5350 $noname  RVAR1 10k {Lib=RVAR}
+  (    1 +5V )
+  (    2 GND )
+  (    3 N-000017 )
+ )
+ ( /4C4C52EA $noname  K7 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5V )
+  (    3 /S4 )
+ )
+ ( /4C4C52E5 $noname  K8 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5V )
+  (    3 /S5 )
+ )
+ ( /4C4C52E4 $noname  K9 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5V )
+  (    3 /S6 )
+ )
+ ( /4C4C52DA $noname  K6 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5V )
+  (    3 /S3 )
+ )
+ ( /4C4C52CE $noname  K5 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5V )
+  (    3 /S2 )
+ )
+ ( /4C4C5219 $noname  K4 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5V )
+  (    3 /S1 )
+ )
+ ( /4C4C5090 $noname  R20 1.5k {Lib=R}
+  (    1 N-000001 )
+  (    2 N-000060 )
+ )
+ ( /4C4C5069 $noname  K2 CONN_2 {Lib=CONN_2}
+  (    1 N-000060 )
+  (    2 +5VD )
+ )
+ ( /4C4C4E4D $noname  C2 22p {Lib=C}
+  (    1 N-000009 )
+  (    2 GND )
+ )
+ ( /4C4C4E4B $noname  C1 22p {Lib=C}
+  (    1 N-000008 )
+  (    2 GND )
+ )
+ ( /4C4C4E3C $noname  X1 7.3728 {Lib=CRYSTAL1}
+  (    1 N-000008 )
+  (    2 N-000009 )
+ )
+ ( /4C4C4D68 $noname  SW2 SW_PUSH_SMALL {Lib=SW_PUSH_SMALL}
+  (    1 GND )
+  (    2 N-000010 )
+ )
+ ( /4C4C4CDD $noname  P2 CAVALIER2 {Lib=CAVALIER2}
+  (    1 N-000011 )
+  (    2 N-000007 )
+  (    3 N-000010 )
+ )
+ ( /4C4C4C94 $noname  K3 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 N-000011 )
+ )
+ ( /4C4C4C81 $noname  R21 100 {Lib=R}
+  (    1 /RST )
+  (    2 N-000007 )
+ )
+ ( /4C4C4C7D $noname  R19 10k {Lib=R}
+  (    1 +5VD )
+  (    2 /RST )
+ )
+ ( /4C4C4BA0 $noname  R11 8_x_10k {Lib=R}
+  (    1 /H )
+  (    2 +5VD )
+ )
+ ( /4C4C4B9F $noname  R12 ~ {Lib=R}
+  (    1 /G )
+  (    2 +5VD )
+ )
+ ( /4C4C4B9E $noname  R14 ~ {Lib=R}
+  (    1 /I )
+  (    2 +5VD )
+ )
+ ( /4C4C4B9D $noname  R13 ~ {Lib=R}
+  (    1 /F )
+  (    2 +5VD )
+ )
+ ( /4C4C4B9C $noname  R17 ~ {Lib=R}
+  (    1 N-000043 )
+  (    2 +5VD )
+ )
+ ( /4C4C4B9B $noname  R18 ~ {Lib=R}
+  (    1 N-000061 )
+  (    2 +5VD )
+ )
+ ( /4C4C4B9A $noname  R16 ~ {Lib=R}
+  (    1 N-000062 )
+  (    2 +5VD )
+ )
+ ( /4C4C4B99 $noname  R15 ~ {Lib=R}
+  (    1 N-000044 )
+  (    2 +5VD )
+ )
+ ( /4C4C4848 $noname  R5 ~ {Lib=R}
+  (    1 N-000057 )
+  (    2 +5VD )
+ )
+ ( /4C4C4847 $noname  R6 ~ {Lib=R}
+  (    1 N-000047 )
+  (    2 +5VD )
+ )
+ ( /4C4C4846 $noname  R8 ~ {Lib=R}
+  (    1 N-000040 )
+  (    2 +5VD )
+ )
+ ( /4C4C4845 $noname  R7 ~ {Lib=R}
+  (    1 N-000056 )
+  (    2 +5VD )
+ )
+ ( /4C4C4842 $noname  R3 ~ {Lib=R}
+  (    1 /B )
+  (    2 +5VD )
+ )
+ ( /4C4C4841 $noname  R4 ~ {Lib=R}
+  (    1 /A )
+  (    2 +5VD )
+ )
+ ( /4C4C4838 $noname  R2 ~ {Lib=R}
+  (    1 /C )
+  (    2 +5VD )
+ )
+ ( /4C4C482F $noname  R1 8_x_10k {Lib=R}
+  (    1 /D )
+  (    2 +5VD )
+ )
+ ( /4C4C46F6 $noname  SW3 SWITCH_X_8 {Lib=SWITCH_X_8}
+  (    1 N-000061 )
+  (    2 N-000043 )
+  (    3 N-000062 )
+  (    4 N-000044 )
+  (    5 /H )
+  (    6 /G )
+  (    7 /F )
+  (    8 /I )
+  (    9 GND )
+  (   10 GND )
+  (   11 GND )
+  (   12 GND )
+  (   13 GND )
+  (   14 GND )
+  (   15 GND )
+  (   16 GND )
+ )
+ ( /4C4C46F2 $noname  SW1 SWITCH_X_8 {Lib=SWITCH_X_8}
+  (    1 N-000040 )
+  (    2 N-000056 )
+  (    3 N-000047 )
+  (    4 N-000057 )
+  (    5 /D )
+  (    6 /C )
+  (    7 /B )
+  (    8 /A )
+  (    9 GND )
+  (   10 GND )
+  (   11 GND )
+  (   12 GND )
+  (   13 GND )
+  (   14 GND )
+  (   15 GND )
+  (   16 GND )
+ )
+ ( /4C4C465C $noname  R9 1,5k {Lib=R}
+  (    1 N-000048 )
+  (    2 GND )
+ )
+ ( /4C4C4655 $noname  D1 vert {Lib=LED}
+  (    1 +5VD )
+  (    2 N-000048 )
+ )
+ ( /4C4C45C8 $noname  J1 RJ12 {Lib=RJ12}
+  (    1 /RST )
+  (    2 +5VD )
+  (    3 GND )
+  (    4 /PGD )
+  (    5 /PGC )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+ )
+ ( /4C4C44F6 $noname  U2 PCF8574T {Lib=PCF8574T}
+  (    1 +5VD )
+  (    2 GND )
+  (    3 GND )
+  (    4 N-000061 )
+  (    5 N-000043 )
+  (    6 N-000062 )
+  (    7 N-000044 )
+  (    8 GND )
+  (    9 /I )
+  (   10 /F )
+  (   11 /G )
+  (   12 /H )
+  (   13 ? )
+  (   14 /SCL )
+  (   15 /SDA )
+  (   16 +5VD )
+ )
+ ( /4C4C44F2 $noname  U1 PCF8574T {Lib=PCF8574T}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 N-000040 )
+  (    5 N-000056 )
+  (    6 N-000047 )
+  (    7 N-000057 )
+  (    8 GND )
+  (    9 /A )
+  (   10 /B )
+  (   11 /C )
+  (   12 /D )
+  (   13 ? )
+  (   14 /SCL )
+  (   15 /SDA )
+  (   16 +5VD )
+ )
+ ( /4C4C4390 $noname  P5 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 +5VD )
+  (    3 /SCL )
+  (    4 /SDA )
+ )
+ ( /4C4C42AD $noname  P3 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 N-000019 )
+  (    3 +5VD )
+  (    4 N-000029 )
+ )
+ ( /4C4C41D8 $noname  P6 ~ {Lib=CAVALIER}
+  (    1 N-000032 )
+  (    2 +5VD )
+ )
+ ( /4C4C41D3 $noname  P4 ~ {Lib=CAVALIER}
+  (    1 N-000031 )
+  (    2 +5VD )
+ )
+ ( /4C4C419B $noname  R22 2.1k {Lib=R}
+  (    1 N-000031 )
+  (    2 /SDA )
+ )
+ ( /4C4C418B $noname  R23 2.1k {Lib=R}
+  (    1 N-000032 )
+  (    2 /SCL )
+ )
+ ( /4C4C4176 $noname  U3 DSPIC30F4013 {Lib=DSPIC30F4013}
+  (    1 /RST )
+  (    2 /D0 )
+  (    3 /D1 )
+  (    4 /D2 )
+  (    5 /D3 )
+  (    6 /RS )
+  (    7 /R/W )
+  (    8 /PGC )
+  (    9 /PGD )
+  (   10 /E )
+  (   11 +5VD )
+  (   12 GND )
+  (   13 N-000008 )
+  (   14 N-000009 )
+  (   15 N-000022 )
+  (   16 N-000024 )
+  (   17 ? )
+  (   18 ? )
+  (   19 /S4 )
+  (   20 GND )
+  (   21 +5VD )
+  (   22 /S3 )
+  (   23 ? )
+  (   24 N-000060 )
+  (   25 /SCL )
+  (   26 /SDA )
+  (   27 N-000019 )
+  (   28 N-000029 )
+  (   29 /S6 )
+  (   30 /S5 )
+  (   31 GND )
+  (   32 +5VD )
+  (   33 /S2 )
+  (   34 /S1 )
+  (   35 /D7 )
+  (   36 /D6 )
+  (   37 /D5 )
+  (   38 /D4 )
+  (   39 GND )
+  (   40 N-000059 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "" ""
+ D3 1
+ R20 1
+Net 2 "GND" "GND"
+ U2 8
+ P3 1
+ P5 1
+ U1 1
+ U1 2
+ U1 3
+ U1 8
+ C8 2
+ K7 1
+ K8 1
+ K9 1
+ RVAR1 2
+ SW1 14
+ SW1 13
+ SW1 12
+ SW1 11
+ SW1 10
+ SW3 9
+ SW3 10
+ SW1 9
+ R9 2
+ J1 3
+ U2 2
+ U2 3
+ SW3 11
+ SW3 12
+ SW3 13
+ SW3 14
+ SW3 15
+ SW3 16
+ P7 1
+ D3 2
+ U3 39
+ P7 16
+ SW1 16
+ P9 1
+ U3 20
+ SW1 15
+ U3 31
+ U3 12
+ C1 2
+ K6 1
+ SW2 1
+ C7 2
+ C6 2
+ K3 1
+ K4 1
+ K5 1
+ C2 2
+ R10 2
+ K1 2
+ C3 2
+ C5 2
+ C4 2
+Net 3 "+5VD" "+5VD"
+ R7 2
+ R8 2
+ R6 2
+ U3 21
+ U3 11
+ P4 2
+ U2 1
+ P9 3
+ R13 2
+ R17 2
+ R18 2
+ R16 2
+ R15 2
+ R5 2
+ R3 2
+ J1 2
+ R4 2
+ R2 2
+ D1 1
+ K2 2
+ R1 2
+ C4 1
+ C5 1
+ C6 1
+ U1 16
+ P5 2
+ C8 1
+ C7 1
+ R14 2
+ R12 2
+ R11 2
+ U3 32
+ P8 1
+ R19 1
+ L1 1
+ P6 2
+ P3 3
+ U2 16
+Net 4 "/S3" "S3"
+ K6 3
+ U3 22
+Net 5 "/S2" "S2"
+ K5 3
+ U3 33
+Net 6 "/S1" "S1"
+ K4 3
+ U3 34
+Net 7 "" ""
+ R21 2
+ P2 2
+Net 8 "" ""
+ C1 1
+ X1 1
+ U3 13
+Net 9 "" ""
+ U3 14
+ C2 1
+ X1 2
+Net 10 "" ""
+ SW2 2
+ P2 3
+Net 11 "" ""
+ P2 1
+ K3 2
+Net 12 "" ""
+ R10 1
+ D2 2
+Net 13 "/S4" "S4"
+ K7 3
+ U3 19
+Net 14 "/S5" "S5"
+ K8 3
+ U3 30
+Net 15 "+5V" "+5V"
+ D2 1
+ K4 2
+ K1 1
+ K6 2
+ K5 2
+ P7 15
+ P8 2
+ K7 2
+ K8 2
+ K9 2
+ RVAR1 1
+ P7 2
+Net 16 "/S6" "S6"
+ K9 3
+ U3 29
+Net 17 "" ""
+ RVAR1 3
+ P7 3
+Net 19 "" ""
+ U3 27
+ P3 2
+Net 22 "" ""
+ P9 2
+ U3 15
+Net 23 "/D7" "D7"
+ U3 35
+ P7 14
+Net 24 "" ""
+ U3 16
+ P9 4
+Net 25 "/D6" "D6"
+ U3 36
+ P7 13
+Net 27 "/D5" "D5"
+ P7 12
+ U3 37
+Net 29 "" ""
+ P3 4
+ U3 28
+Net 30 "/D4" "D4"
+ U3 38
+ P7 11
+Net 31 "" ""
+ P4 1
+ R22 1
+Net 32 "" ""
+ R23 1
+ P6 1
+Net 33 "/D0" "D0"
+ P7 7
+ U3 2
+Net 34 "/D1" "D1"
+ U3 3
+ P7 8
+Net 35 "/D2" "D2"
+ P7 9
+ U3 4
+Net 36 "/D3" "D3"
+ P7 10
+ U3 5
+Net 37 "/RS" "RS"
+ U3 6
+ P7 4
+Net 38 "/R/W" "R/W"
+ P7 5
+ U3 7
+Net 39 "/E" "E"
+ P7 6
+ U3 10
+Net 40 "" ""
+ U1 4
+ R8 1
+ SW1 1
+Net 41 "/A" "A"
+ SW1 8
+ R4 1
+ U1 9
+Net 42 "/C" "C"
+ R2 1
+ SW1 6
+ U1 11
+Net 43 "" ""
+ R17 1
+ SW3 2
+ U2 5
+Net 44 "" ""
+ U2 7
+ R15 1
+ SW3 4
+Net 45 "/SDA" "SDA"
+ U1 15
+ P5 4
+ U3 26
+ U2 15
+ R22 2
+Net 46 "/SCL" "SCL"
+ U1 14
+ P5 3
+ U2 14
+ U3 25
+ R23 2
+Net 47 "" ""
+ R6 1
+ U1 6
+ SW1 3
+Net 48 "" ""
+ R9 1
+ D1 2
+Net 49 "/RST" "RST"
+ U3 1
+ R21 1
+ R19 2
+ J1 1
+Net 50 "/PGD" "PGD"
+ J1 4
+ U3 9
+Net 51 "/PGC" "PGC"
+ U3 8
+ J1 5
+Net 55 "/D" "D"
+ R1 1
+ U1 12
+ SW1 5
+Net 56 "" ""
+ R7 1
+ U1 5
+ SW1 2
+Net 57 "" ""
+ R5 1
+ U1 7
+ SW1 4
+Net 58 "/B" "B"
+ SW1 7
+ R3 1
+ U1 10
+Net 59 "" ""
+ L1 2
+ C3 1
+ U3 40
+Net 60 "" ""
+ U3 24
+ K2 1
+ R20 2
+Net 61 "" ""
+ SW3 1
+ U2 4
+ R18 1
+Net 62 "" ""
+ SW3 3
+ R16 1
+ U2 6
+Net 63 "/I" "I"
+ R14 1
+ U2 9
+ SW3 8
+Net 64 "/F" "F"
+ SW3 7
+ R13 1
+ U2 10
+Net 65 "/G" "G"
+ R12 1
+ SW3 6
+ U2 11
+Net 66 "/H" "H"
+ SW3 5
+ U2 12
+ R11 1
+}
+#End

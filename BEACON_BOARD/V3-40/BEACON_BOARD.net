@@ -1,0 +1,335 @@
+# EESchema Netlist Version 1.1 created  01/05/2012 11:56:45
+(
+ ( /4A4E73CC/4A4E7B54 SM0603 C1 22p
+  ( 1 N-000051 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4A4E7B56 SM0603 C2 22p
+  ( 1 N-000050 )
+  ( 2 GND )
+ )
+ ( /4DB889AC SM0603 C3 6.8n
+  ( 1 +5VD )
+  ( 2 GND )
+ )
+ ( /4DB889AF SM0603 C4 6.8n
+  ( 1 +5VD )
+  ( 2 GND )
+ )
+ ( /4DB889AA SM0603 C5 6.8n
+  ( 1 +5VD )
+  ( 2 GND )
+ )
+ ( /4DB889A7 SM0603 C6 6.8n
+  ( 1 +5VD )
+  ( 2 GND )
+ )
+ ( /4DB889A0 SM1206 C7 10U/10V
+  ( 1 +5VD )
+  ( 2 GND )
+ )
+ ( /4A4E73A9/4A58FAA7 SM0603 D1 LED_0603
+  ( 1 +5VD )
+  ( 2 N-000029 )
+ )
+ ( /4A4E73A9/4A58FAAB SM0603 D2 LED_0603
+  ( 1 +12V )
+  ( 2 N-000030 )
+ )
+ ( /4A4E73CC/4C97BD7F SM0603 D3 LED
+  ( 1 /CPU/LASER1 )
+  ( 2 N-000053 )
+ )
+ ( /4A4E73CC/4C97BD90 SM0603 D4 LED
+  ( 1 /CPU/LASER2 )
+  ( 2 N-000057 )
+ )
+ ( /4A4E73CC/4C97C34F SM0603 D5 LED
+  ( 1 /CPU/LASER3 )
+  ( 2 N-000054 )
+ )
+ ( /4A4E73CC/4C97C34E SM0603 D6 LED
+  ( 1 /CPU/LASER4 )
+  ( 2 N-000043 )
+ )
+ ( /4A4E73CC/4F9F9F62 SM0805 D7 LED_VERTE
+  ( 1 N-000031 )
+  ( 2 N-000046 )
+ )
+ ( /4A4E73CC/4F9F9F61 SM0805 D8 LED_ORANGE
+  ( 1 N-000048 )
+  ( 2 N-000047 )
+ )
+ ( /4A4E73CC/4F9F9F5D SM0805 D9 LED_ROUGE
+  ( 1 N-000055 )
+  ( 2 N-000045 )
+ )
+ ( /4A4E73CC/4F9F9F5E SM0805 D10 LED_BLEU
+  ( 1 N-000049 )
+  ( 2 N-000044 )
+ )
+ ( /4A4E73CC/4CE04C08 SM0603 D16 LED
+  ( 1 N-000041 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4CE04C11 SM0603 D17 LED
+  ( 1 N-000056 )
+  ( 2 GND )
+ )
+ ( /4DB2DFB4 SM0603 D18 LED
+  ( 1 /CPU/GO )
+  ( 2 N-000005 )
+ )
+ ( /4A4E79F6 RJ12_E J1 RJ12
+  ( 1 /CPU/MCLR )
+  ( 2 +5VD )
+  ( 3 GND )
+  ( 4 /CPU/PGD )
+  ( 5 /CPU/PGC )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+ )
+ ( /4DB2E1B3 RJ45_8 J3 RJ45
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 +12V )
+  ( 4 +BATT )
+  ( 5 /CPU/LASER3 )
+  ( 6 /CPU/LASER4 )
+  ( 7 /CPU/SERV3 )
+  ( 8 /CPU/SERV4 )
+  ( 9 ? )
+ )
+ ( /4C97CBB1 WEIDMULLER2 K1 CONN_2
+  ( 1 N-000026 )
+  ( 2 GND )
+ )
+ ( /4CA102DB SIL-3"1/2-3-D K11 CONN_3
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 /CPU/SERV4 )
+ )
+ ( /4CA102E0 SIL-3"1/2-3-D K12 CONN_3
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 /CPU/SERV3 )
+ )
+ ( /4CA102E4 SIL-3"1/2-3-D K13 CONN_3
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 /CPU/SERV2 )
+ )
+ ( /4CA102E7 SIL-3"1/2-3-D K14 CONN_3
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 /CPU/SERV1 )
+ )
+ ( /4CA1042B SIL-3"1/2-3-D K15 CONN_3
+  ( 1 GND )
+  ( 2 +12V )
+  ( 3 /CPU/LASER1 )
+ )
+ ( /4CA10473 SIL-3"1/2-3-D K16 CONN_3
+  ( 1 GND )
+  ( 2 +12V )
+  ( 3 /CPU/LASER3 )
+ )
+ ( /4CA10483 SIL-3"1/2-3-D K17 CONN_3
+  ( 1 GND )
+  ( 2 +12V )
+  ( 3 /CPU/LASER2 )
+ )
+ ( /4CA1047E SIL-3"1/2-3-D K18 CONN_3
+  ( 1 GND )
+  ( 2 +12V )
+  ( 3 /CPU/LASER4 )
+ )
+ ( /4A5A580A KK-4-D P1 CONN_4
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 +12V )
+  ( 4 +BATT )
+ )
+ ( /4A53BA0D KK-4-D P2 CONN_4
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 +12V )
+  ( 4 +BATT )
+ )
+ ( /4A54F66E WEIDMULLER2 P3 CONN_2
+  ( 1 N-000026 )
+  ( 2 +BATT )
+ )
+ ( /4C97C129 KK-4-D P4 CONN_4
+  ( 1 GND )
+  ( 2 /CPU/TX-UART1 )
+  ( 3 +5VD )
+  ( 4 /CPU/RX-UART1 )
+ )
+ ( /4A53BA0A KK-4-D P5 CONN_4
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 +12V )
+  ( 4 +BATT )
+ )
+ ( /4DB2DECF KK-4-D P6 CONN_4
+  ( 1 GND )
+  ( 2 /CPU/TX-UART2 )
+  ( 3 +5VD )
+  ( 4 /CPU/RX-UART2 )
+ )
+ ( /4DB2DFD4 SIL-3"1/2-2-D P7 SIL2
+  ( 1 +5VD )
+  ( 2 /CPU/GO )
+ )
+ ( /4DB88E84 KK-4-D P8 CONN_4
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 /CPU/SCL )
+  ( 4 /CPU/SDA )
+ )
+ ( /4A4E73A9/4A58FA96 SM0603 R1 1k
+  ( 1 N-000029 )
+  ( 2 GND )
+ )
+ ( /4A4E73A9/4A58FA9C SM0603 R2 2.1k
+  ( 1 N-000030 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97BCD0 SM0603 R3 10k
+  ( 1 +5VD )
+  ( 2 /CPU/MCLR )
+ )
+ ( /4A4E73CC/4C97BD68 SM0603 R4 1.5k
+  ( 1 N-000053 )
+  ( 2 N-000058 )
+ )
+ ( /4A4E73CC/4C97BD92 SM0603 R5 1.5k
+  ( 1 N-000057 )
+  ( 2 N-000042 )
+ )
+ ( /4A4E73CC/4C97C350 SM0603 R6 1.5k
+  ( 1 N-000054 )
+  ( 2 N-000052 )
+ )
+ ( /4A4E73CC/4C97C34D SM0603 R7 1.5k
+  ( 1 N-000043 )
+  ( 2 N-000034 )
+ )
+ ( /4A4E73CC/4F9F9F63 SM0603 R8 1.5k
+  ( 1 N-000046 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4F9F9F60 SM0603 R9 1.5k
+  ( 1 N-000047 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4F9F9F5C SM0603 R10 1.5k
+  ( 1 N-000045 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4F9F9F5F SM0603 R11 1.5k
+  ( 1 N-000044 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97C3A8 SM0603 R17 1.5k
+  ( 1 N-000058 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97C3A7 SM0603 R18 1.5k
+  ( 1 N-000042 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97C3A5 SM0603 R19 1.5k
+  ( 1 N-000052 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97C3A6 SM0603 R20 1.5k
+  ( 1 N-000034 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4CE04BF4 SM0603 R31 3k3
+  ( 1 +12V )
+  ( 2 N-000041 )
+ )
+ ( /4A4E73CC/4CE04BF6 SM0603 R32 1k
+  ( 1 +5VD )
+  ( 2 N-000056 )
+ )
+ ( /4DB2DFA9 SM0603 R33 R
+  ( 1 /CPU/GO )
+  ( 2 GND )
+ )
+ ( /4DB2DFAC SM0603 R34 1k
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97C960 SW SW1 SW_PUSH_SMALL
+  ( 1 GND )
+  ( 2 /CPU/MCLR )
+ )
+ ( /4A4E73A9/4A54F45D TRACO-15-1211 U2 TRACO-15-1211
+  ( 1 +BATT )
+  ( 2 GND )
+  ( 3 +5VD )
+  ( 5 GND )
+ )
+ ( /4A4E73A9/4A54F467 TRACO-3-1212 U3 TRACO-3-1212
+  ( 1 +BATT )
+  ( 10 GND )
+  ( 11 +12V )
+  ( 12 GND )
+  ( 13 GND )
+  ( 14 +12V )
+  ( 15 GND )
+  ( 24 +BATT )
+ )
+ ( /4A4E73CC/4C97BA07 DIP-40__600_ELL U4 DSPIC30F4013
+  ( 1 /CPU/MCLR )
+  ( 2 N-000058 )
+  ( 3 N-000042 )
+  ( 4 N-000052 )
+  ( 5 N-000034 )
+  ( 6 /CPU/GO )
+  ( 7 ? )
+  ( 8 /CPU/PGC )
+  ( 9 /CPU/PGD )
+  ( 10 ? )
+  ( 11 +5VD )
+  ( 12 GND )
+  ( 13 N-000050 )
+  ( 14 N-000051 )
+  ( 15 /CPU/TX-UART1 )
+  ( 16 /CPU/RX-UART1 )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 /CPU/SERV4 )
+  ( 20 GND )
+  ( 21 +5VD )
+  ( 22 /CPU/SERV3 )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 /CPU/SCL )
+  ( 26 /CPU/SDA )
+  ( 27 /CPU/TX-UART2 )
+  ( 28 /CPU/RX-UART2 )
+  ( 29 ? )
+  ( 30 ? )
+  ( 31 GND )
+  ( 32 +5VD )
+  ( 33 /CPU/SERV2 )
+  ( 34 /CPU/SERV1 )
+  ( 35 N-000049 )
+  ( 36 N-000055 )
+  ( 37 N-000048 )
+  ( 38 N-000031 )
+  ( 39 GND )
+  ( 40 +5VD )
+ )
+ ( /4A4E73CC/4A4E7B6E QTZ2 X1 7.3728Mhz
+  ( 1 N-000051 )
+  ( 2 N-000050 )
+ )
+)
+*

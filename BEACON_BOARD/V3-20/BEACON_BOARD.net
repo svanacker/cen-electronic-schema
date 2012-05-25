@@ -1,0 +1,371 @@
+# EESchema Netlist Version 1.1 created  sam. 11 déc. 2010 20:58:55 CET
+(
+ ( /4A4E73CC/4A4E7B54 SM0603 C1 22p
+  ( 1 N-000050 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4A4E7B56 SM0603 C2 22p
+  ( 1 N-000062 )
+  ( 2 GND )
+ )
+ ( /4A4E73A9/4A58FAA7 SM0603 D1 LED_0603
+  ( 1 +5VD )
+  ( 2 N-000033 )
+ )
+ ( /4A4E73A9/4A58FAAB SM0603 D2 LED_0603
+  ( 1 +12V )
+  ( 2 N-000034 )
+ )
+ ( /4A4E73CC/4C97BD7F SM0603 D3 LED
+  ( 1 /CPU/LASER1 )
+  ( 2 N-000059 )
+ )
+ ( /4A4E73CC/4C97BD90 SM0603 D4 LED
+  ( 1 /L2 )
+  ( 2 N-000067 )
+ )
+ ( /4A4E73CC/4C97C34F SM0603 D5 LED
+  ( 1 /L3 )
+  ( 2 N-000058 )
+ )
+ ( /4A4E73CC/4C97C34E SM0603 D6 LED
+  ( 1 /L4 )
+  ( 2 N-000057 )
+ )
+ ( /4A4E73CC/4C97C359 SM0603 D7 LED
+  ( 1 /CPU/COD1-A )
+  ( 2 N-000055 )
+ )
+ ( /4A4E73CC/4C97C358 SM0603 D8 LED
+  ( 1 /CPU/COD1-B )
+  ( 2 N-000054 )
+ )
+ ( /4A4E73CC/4C97C355 SM0603 D10 LED
+  ( 1 /COD2-A )
+  ( 2 N-000056 )
+ )
+ ( /4A4E73CC/4C97C36F SM0603 D11 LED
+  ( 1 /COD2-B )
+  ( 2 N-000051 )
+ )
+ ( /4A4E73CC/4C97C36A SM0603 D13 LED
+  ( 1 /CPU/COD3-A )
+  ( 2 N-000052 )
+ )
+ ( /4A4E73CC/4C97C36B SM0603 D14 LED
+  ( 1 /CPU/COD3-B )
+  ( 2 N-000053 )
+ )
+ ( /4A4E73CC/4CE04C08 SM0603 D16 LED
+  ( 1 N-000048 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4CE04C11 SM0603 D17 LED
+  ( 1 N-000060 )
+  ( 2 GND )
+ )
+ ( /4A4E79F6 RJ12_E J1 RJ12
+  ( 1 /CPU/MCLR )
+  ( 2 +5VD )
+  ( 3 GND )
+  ( 4 /CPU/PGD )
+  ( 5 /CPU/PGC )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+ )
+ ( /4D03D26F RJ45_8 J2 RJ45
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 /CPU/SERV2 )
+  ( 4 /COD2-B )
+  ( 5 /COD2-A )
+  ( 6 GND )
+  ( 7 +12V )
+  ( 8 /L2 )
+  ( 9 ? )
+ )
+ ( /4C97CBB1 WEIDMULLER2 K1 CONN_2
+  ( 1 N-000021 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97C51B 1PIN K5 1_PAD
+  ( 1 N-000036 )
+ )
+ ( /4A4E73CC/4C97C2CB 1PIN K6 1_PAD
+  ( 1 N-000042 )
+ )
+ ( /4A4E73CC/4C97C2D1 1PIN K7 1_PAD
+  ( 1 N-000041 )
+ )
+ ( /4A4E73CC/4C97C521 1PIN K8 1_PAD
+  ( 1 N-000040 )
+ )
+ ( /4A4E73CC/4C97C2D4 1PIN K9 1_PAD
+  ( 1 N-000039 )
+ )
+ ( /4A4E73CC/4C97C524 1PIN K10 1_PAD
+  ( 1 N-000035 )
+ )
+ ( /4CA102DB SIL-3"1/2-3-D K11 CONN_3
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 /S4 )
+ )
+ ( /4CA102E0 SIL-3"1/2-3-D K12 CONN_3
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 /S3 )
+ )
+ ( /4CA102E4 SIL-3"1/2-3-D K13 CONN_3
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 /CPU/SERV2 )
+ )
+ ( /4CA102E7 SIL-3"1/2-3-D K14 CONN_3
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 /CPU/SERV1 )
+ )
+ ( /4CA1042B SIL-3"1/2-3-D K15 CONN_3
+  ( 1 GND )
+  ( 2 +12V )
+  ( 3 /CPU/LASER1 )
+ )
+ ( /4CA10473 SIL-3"1/2-3-D K16 CONN_3
+  ( 1 GND )
+  ( 2 +12V )
+  ( 3 /L3 )
+ )
+ ( /4CA10483 SIL-3"1/2-3-D K17 CONN_3
+  ( 1 GND )
+  ( 2 +12V )
+  ( 3 /L2 )
+ )
+ ( /4CA1047E SIL-3"1/2-3-D K18 CONN_3
+  ( 1 GND )
+  ( 2 +12V )
+  ( 3 /L4 )
+ )
+ ( /4A5A580A SIL-3"1/2-4-D P1 CONN_4
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 +12V )
+  ( 4 +BATT )
+ )
+ ( /4A53BA0D SIL-3"1/2-4-D P2 CONN_4
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 +12V )
+  ( 4 +BATT )
+ )
+ ( /4A54F66E WEIDMULLER2 P3 CONN_2
+  ( 1 N-000021 )
+  ( 2 +BATT )
+ )
+ ( /4C97C129 SIL-3"1/2-4-D P4 CONN_4
+  ( 1 GND )
+  ( 2 /CPU/TX-UART1 )
+  ( 3 +5VD )
+  ( 4 /CPU/RX-UART1 )
+ )
+ ( /4A53BA0A SIL-3"1/2-4-D P5 CONN_4
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 +12V )
+  ( 4 +BATT )
+ )
+ ( /4CA10501 SIL-3"1/2-4-D P6 CONN_4
+  ( 1 +12V )
+  ( 2 GND )
+  ( 3 /CPU/COD3-B )
+  ( 4 /CPU/COD3-A )
+ )
+ ( /4CA10509 SIL-3"1/2-4-D P7 CONN_4
+  ( 1 +12V )
+  ( 2 GND )
+  ( 3 /COD2-B )
+  ( 4 /COD2-A )
+ )
+ ( /4CA1050C SIL-3"1/2-4-D P8 CONN_4
+  ( 1 +12V )
+  ( 2 GND )
+  ( 3 /CPU/COD1-B )
+  ( 4 /CPU/COD1-A )
+ )
+ ( /4A4E73A9/4A58FA96 SM0603 R1 1k
+  ( 1 N-000033 )
+  ( 2 GND )
+ )
+ ( /4A4E73A9/4A58FA9C SM0603 R2 2.1k
+  ( 1 N-000034 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97BCD0 SM0603 R3 10k
+  ( 1 +5VD )
+  ( 2 /CPU/MCLR )
+ )
+ ( /4A4E73CC/4C97BD68 SM0603 R4 1.5k
+  ( 1 N-000059 )
+  ( 2 N-000063 )
+ )
+ ( /4A4E73CC/4C97BD92 SM0603 R5 1.5k
+  ( 1 N-000067 )
+  ( 2 N-000049 )
+ )
+ ( /4A4E73CC/4C97C350 SM0603 R6 1.5k
+  ( 1 N-000058 )
+  ( 2 N-000061 )
+ )
+ ( /4A4E73CC/4C97C34D SM0603 R7 1.5k
+  ( 1 N-000057 )
+  ( 2 N-000038 )
+ )
+ ( /4A4E73CC/4C97C35A SM0603 R8 1.5k
+  ( 1 N-000055 )
+  ( 2 N-000045 )
+ )
+ ( /4A4E73CC/4C97C357 SM0603 R9 1.5k
+  ( 1 N-000054 )
+  ( 2 N-000064 )
+ )
+ ( /4A4E73CC/4C97C356 SM0603 R11 1.5k
+  ( 1 N-000056 )
+  ( 2 N-000065 )
+ )
+ ( /4A4E73CC/4C97C370 SM0603 R12 1.5k
+  ( 1 N-000051 )
+  ( 2 N-000046 )
+ )
+ ( /4A4E73CC/4C97C369 SM0603 R14 1.5k
+  ( 1 N-000052 )
+  ( 2 N-000047 )
+ )
+ ( /4A4E73CC/4C97C36C SM0603 R15 1.5k
+  ( 1 N-000053 )
+  ( 2 N-000066 )
+ )
+ ( /4A4E73CC/4C97C3A8 SM0603 R17 1.5k
+  ( 1 N-000063 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97C3A7 SM0603 R18 1.5k
+  ( 1 N-000049 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97C3A5 SM0603 R19 1.5k
+  ( 1 N-000061 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97C3A6 SM0603 R20 1.5k
+  ( 1 N-000038 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97C373 SM0603 R21 1.5k
+  ( 1 N-000045 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97C374 SM0603 R22 1.5k
+  ( 1 N-000064 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97C39A SM0603 R24 1.5k
+  ( 1 N-000065 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97C3AD SM0603 R25 1.5k
+  ( 1 N-000046 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97C3B0 SM0603 R27 1.5k
+  ( 1 N-000047 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4C97C3AF SM0603 R28 1.5k
+  ( 1 N-000066 )
+  ( 2 GND )
+ )
+ ( /4A4E73CC/4CE04BF4 SM0603 R31 3k3
+  ( 1 +12V )
+  ( 2 N-000048 )
+ )
+ ( /4A4E73CC/4CE04BF6 SM0603 R32 1k
+  ( 1 +5VD )
+  ( 2 N-000060 )
+ )
+ ( /4A4E73CC/4C97C960 SW2 SW1 SW_PUSH_SMALL
+  ( 1 GND )
+  ( 2 /CPU/MCLR )
+ )
+ ( /4A4E7402 KK-6-D U1 ZIG-BEE_RS232
+  ( 1 GND )
+  ( 2 +5VD )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 /CPU/TX-UART2 )
+  ( 6 /CPU/RX-UART2 )
+ )
+ ( /4A4E73A9/4A54F45D TRACO-15-1211 U2 TRACO-15-1211
+  ( 1 +BATT )
+  ( 2 GND )
+  ( 3 +5VD )
+  ( 5 GND )
+ )
+ ( /4A4E73A9/4A54F467 TRACO-3-1212 U3 TRACO-3-1212
+  ( 1 +BATT )
+  ( 10 GND )
+  ( 11 +12V )
+  ( 12 GND )
+  ( 13 GND )
+  ( 14 +12V )
+  ( 15 GND )
+  ( 24 +BATT )
+ )
+ ( /4A4E73CC/4C97BA07 DIP-40__600_ELL U4 DSPIC30F4013
+  ( 1 /CPU/MCLR )
+  ( 2 N-000045 )
+  ( 3 N-000064 )
+  ( 4 ? )
+  ( 5 N-000065 )
+  ( 6 N-000046 )
+  ( 7 ? )
+  ( 8 /CPU/PGC )
+  ( 9 /CPU/PGD )
+  ( 10 N-000061 )
+  ( 11 +5VD )
+  ( 12 GND )
+  ( 13 N-000062 )
+  ( 14 N-000050 )
+  ( 15 N-000038 )
+  ( 16 N-000036 )
+  ( 17 N-000063 )
+  ( 18 N-000035 )
+  ( 19 /S4 )
+  ( 20 GND )
+  ( 21 +5VD )
+  ( 22 /S3 )
+  ( 23 N-000040 )
+  ( 24 N-000039 )
+  ( 25 /CPU/TX-UART1 )
+  ( 26 /CPU/RX-UART1 )
+  ( 27 /CPU/TX-UART2 )
+  ( 28 /CPU/RX-UART2 )
+  ( 29 N-000041 )
+  ( 30 N-000042 )
+  ( 31 GND )
+  ( 32 +5VD )
+  ( 33 /CPU/SERV2 )
+  ( 34 /CPU/SERV1 )
+  ( 35 ? )
+  ( 36 N-000066 )
+  ( 37 N-000047 )
+  ( 38 N-000049 )
+  ( 39 GND )
+  ( 40 +5VD )
+ )
+ ( /4A4E73CC/4A4E7B6E QTZ2 X1 7.3728Mhz
+  ( 1 N-000050 )
+  ( 2 N-000062 )
+ )
+)
+*

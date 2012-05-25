@@ -1,0 +1,517 @@
+# EESchema Netlist Version 1.1 created  jeu. 05 mai 2011 23:47:27 CEST
+(
+ ( /4DB88E84 $noname  P8 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 +5VD )
+  (    3 /CPU/SCL )
+  (    4 /CPU/SDA )
+ )
+ ( /4DB889AF $noname  C4 6.8n {Lib=C}
+  (    1 +5VD )
+  (    2 GND )
+ )
+ ( /4DB889AC $noname  C3 6.8n {Lib=C}
+  (    1 +5VD )
+  (    2 GND )
+ )
+ ( /4DB889AA $noname  C5 6.8n {Lib=C}
+  (    1 +5VD )
+  (    2 GND )
+ )
+ ( /4DB889A7 $noname  C6 6.8n {Lib=C}
+  (    1 +5VD )
+  (    2 GND )
+ )
+ ( /4DB889A0 $noname  C7 10U/10V {Lib=CP}
+  (    1 +5VD )
+  (    2 GND )
+ )
+ ( /4DB2E1B3 $noname  J3 RJ45 {Lib=RJ45}
+  (    1 GND )
+  (    2 +5VD )
+  (    3 +12V )
+  (    4 +BATT )
+  (    5 /CPU/LASER3 )
+  (    6 /L4 )
+  (    7 /S3 )
+  (    8 /S4 )
+  (    9 ? )
+ )
+ ( /4DB2DFD4 $noname  P7 SIL2 {Lib=SIL2}
+  (    1 +5VD )
+  (    2 /CPU/GO )
+ )
+ ( /4DB2DFB4 $noname  D18 LED {Lib=LED}
+  (    1 /CPU/GO )
+  (    2 N-000005 )
+ )
+ ( /4DB2DFAC $noname  R34 1k {Lib=R}
+  (    1 N-000005 )
+  (    2 GND )
+ )
+ ( /4DB2DFA9 $noname  R33 R {Lib=R}
+  (    1 /CPU/GO )
+  (    2 GND )
+ )
+ ( /4DB2DECF $noname  P6 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 /CPU/TX-UART2 )
+  (    3 +5VD )
+  (    4 /CPU/RX-UART2 )
+ )
+ ( /4CA10483 $noname  K17 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +12V )
+  (    3 /CPU/LASER2 )
+ )
+ ( /4CA1047E $noname  K18 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +12V )
+  (    3 /L4 )
+ )
+ ( /4CA10473 $noname  K16 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +12V )
+  (    3 /CPU/LASER3 )
+ )
+ ( /4CA1042B $noname  K15 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +12V )
+  (    3 /L1 )
+ )
+ ( /4CA102E7 $noname  K14 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5VD )
+  (    3 /S1 )
+ )
+ ( /4CA102E4 $noname  K13 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5VD )
+  (    3 /CPU/SERV2 )
+ )
+ ( /4CA102E0 $noname  K12 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5VD )
+  (    3 /S3 )
+ )
+ ( /4CA102DB $noname  K11 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5VD )
+  (    3 /S4 )
+ )
+ ( /4C97CBB1 $noname  K1 CONN_2 {Lib=CONN_2}
+  (    1 N-000026 )
+  (    2 GND )
+ )
+ ( /4C97C129 $noname  P4 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 /CPU/TX-UART1 )
+  (    3 +5VD )
+  (    4 /CPU/RX-UART1 )
+ )
+ ( /4A5A580A $noname  P1 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 +5VD )
+  (    3 +12V )
+  (    4 +BATT )
+ )
+ ( /4A54F66E $noname  P3 CONN_2 {Lib=CONN_2}
+  (    1 N-000026 )
+  (    2 +BATT )
+ )
+ ( /4A53BA0D $noname  P2 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 +5VD )
+  (    3 +12V )
+  (    4 +BATT )
+ )
+ ( /4A53BA0A $noname  P5 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 +5VD )
+  (    3 +12V )
+  (    4 +BATT )
+ )
+ ( /4A4E79F6 $noname  J1 RJ12 {Lib=RJ12}
+  (    1 /CPU/MCLR )
+  (    2 +5VD )
+  (    3 GND )
+  (    4 /CPU/PGD )
+  (    5 /CPU/PGC )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+ )
+ ( /4A4E73CC/4CE04C11 $noname  D17 LED {Lib=LED}
+  (    1 N-000048 )
+  (    2 GND )
+ )
+ ( /4A4E73CC/4CE04C08 $noname  D16 LED {Lib=LED}
+  (    1 N-000043 )
+  (    2 GND )
+ )
+ ( /4A4E73CC/4CE04BF6 $noname  R32 1k {Lib=R}
+  (    1 +5VD )
+  (    2 N-000048 )
+ )
+ ( /4A4E73CC/4CE04BF4 $noname  R31 3k3 {Lib=R}
+  (    1 +12V )
+  (    2 N-000043 )
+ )
+ ( /4A4E73CC/4C97C960 $noname  SW1 SW_PUSH_SMALL {Lib=SW_PUSH_SMALL}
+  (    1 GND )
+  (    2 /CPU/MCLR )
+ )
+ ( /4A4E73CC/4C97C3A8 $noname  R17 1.5k {Lib=R}
+  (    1 N-000049 )
+  (    2 GND )
+ )
+ ( /4A4E73CC/4C97C3A7 $noname  R18 1.5k {Lib=R}
+  (    1 N-000044 )
+  (    2 GND )
+ )
+ ( /4A4E73CC/4C97C3A6 $noname  R20 1.5k {Lib=R}
+  (    1 N-000045 )
+  (    2 GND )
+ )
+ ( /4A4E73CC/4C97C3A5 $noname  R19 1.5k {Lib=R}
+  (    1 N-000050 )
+  (    2 GND )
+ )
+ ( /4A4E73CC/4C97C350 $noname  R6 1.5k {Lib=R}
+  (    1 N-000041 )
+  (    2 N-000050 )
+ )
+ ( /4A4E73CC/4C97C34F $noname  D5 LED {Lib=LED}
+  (    1 /CPU/LASER3 )
+  (    2 N-000041 )
+ )
+ ( /4A4E73CC/4C97C34E $noname  D6 LED {Lib=LED}
+  (    1 /L4 )
+  (    2 N-000042 )
+ )
+ ( /4A4E73CC/4C97C34D $noname  R7 1.5k {Lib=R}
+  (    1 N-000042 )
+  (    2 N-000045 )
+ )
+ ( /4A4E73CC/4C97BD92 $noname  R5 1.5k {Lib=R}
+  (    1 N-000031 )
+  (    2 N-000044 )
+ )
+ ( /4A4E73CC/4C97BD90 $noname  D4 LED {Lib=LED}
+  (    1 /CPU/LASER2 )
+  (    2 N-000031 )
+ )
+ ( /4A4E73CC/4C97BD7F $noname  D3 LED {Lib=LED}
+  (    1 /L1 )
+  (    2 N-000040 )
+ )
+ ( /4A4E73CC/4C97BD68 $noname  R4 1.5k {Lib=R}
+  (    1 N-000040 )
+  (    2 N-000049 )
+ )
+ ( /4A4E73CC/4C97BCD0 $noname  R3 10k {Lib=R}
+  (    1 +5VD )
+  (    2 /CPU/MCLR )
+ )
+ ( /4A4E73CC/4C97BA07 $noname  U4 DSPIC30F4013 {Lib=DSPIC30F4013}
+  (    1 /CPU/MCLR )
+  (    2 N-000049 )
+  (    3 N-000044 )
+  (    4 N-000050 )
+  (    5 N-000045 )
+  (    6 /CPU/GO )
+  (    7 ? )
+  (    8 /CPU/PGC )
+  (    9 /CPU/PGD )
+  (   10 ? )
+  (   11 +5VD )
+  (   12 GND )
+  (   13 N-000046 )
+  (   14 N-000047 )
+  (   15 /CPU/TX-UART1 )
+  (   16 /CPU/RX-UART1 )
+  (   17 ? )
+  (   18 ? )
+  (   19 /S4 )
+  (   20 GND )
+  (   21 +5VD )
+  (   22 /S3 )
+  (   23 ? )
+  (   24 ? )
+  (   25 /CPU/SCL )
+  (   26 /CPU/SDA )
+  (   27 /CPU/TX-UART2 )
+  (   28 /CPU/RX-UART2 )
+  (   29 ? )
+  (   30 ? )
+  (   31 GND )
+  (   32 +5VD )
+  (   33 /CPU/SERV2 )
+  (   34 /S1 )
+  (   35 ? )
+  (   36 ? )
+  (   37 ? )
+  (   38 ? )
+  (   39 GND )
+  (   40 +5VD )
+ )
+ ( /4A4E73CC/4A4E7B6E $noname  X1 7.3728Mhz {Lib=CRYSTAL}
+  (    1 N-000047 )
+  (    2 N-000046 )
+ )
+ ( /4A4E73CC/4A4E7B56 $noname  C2 22p {Lib=C}
+  (    1 N-000046 )
+  (    2 GND )
+ )
+ ( /4A4E73CC/4A4E7B54 $noname  C1 22p {Lib=C}
+  (    1 N-000047 )
+  (    2 GND )
+ )
+ ( /4A4E73A9/4A58FAAB $noname  D2 LED_0603 {Lib=LED}
+  (    1 +12V )
+  (    2 N-000030 )
+ )
+ ( /4A4E73A9/4A58FAA7 $noname  D1 LED_0603 {Lib=LED}
+  (    1 +5VD )
+  (    2 N-000029 )
+ )
+ ( /4A4E73A9/4A58FA9C $noname  R2 2.1k {Lib=R}
+  (    1 N-000030 )
+  (    2 GND )
+ )
+ ( /4A4E73A9/4A58FA96 $noname  R1 1k {Lib=R}
+  (    1 N-000029 )
+  (    2 GND )
+ )
+ ( /4A4E73A9/4A54F467 $noname  U3 TRACO-3-1212 {Lib=TRACO-3-1212}
+  (    1 +BATT )
+  (   10 GND )
+  (   11 +12V )
+  (   12 GND )
+  (   13 GND )
+  (   14 +12V )
+  (   15 GND )
+  (   24 +BATT )
+ )
+ ( /4A4E73A9/4A54F45D $noname  U2 TRACO-15-1211 {Lib=TRACO-15-1211}
+  (    1 +BATT )
+  (    2 GND )
+  (    3 +5VD )
+  (    5 GND )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "+12V" "+12V"
+ J3 3
+ P2 3
+ P5 3
+ P1 3
+ R31 1
+ U3 14
+ U3 11
+ D2 1
+ K16 2
+ K17 2
+ K18 2
+ K15 2
+Net 2 "GND" "GND"
+ P8 1
+ K15 1
+ J3 1
+ C4 2
+ C3 2
+ C5 2
+ C6 2
+ C7 2
+ R20 2
+ R18 2
+ R17 2
+ SW1 1
+ U4 12
+ U4 31
+ U4 20
+ D16 2
+ D17 2
+ R19 2
+ U3 13
+ U3 12
+ U3 10
+ R1 2
+ R2 2
+ K17 1
+ U2 5
+ U2 2
+ U4 39
+ C1 2
+ C2 2
+ U3 15
+ R33 2
+ J1 3
+ P5 1
+ P6 1
+ K11 1
+ P2 1
+ K12 1
+ K13 1
+ K14 1
+ K1 2
+ P4 1
+ K18 1
+ K16 1
+ P1 1
+ R34 2
+Net 3 "/CPU/TX-UART1" "TX-UART1"
+ U4 15
+ P4 2
+Net 4 "/CPU/RX-UART2" "RX-UART2"
+ U4 28
+ P6 4
+Net 5 "" ""
+ R34 1
+ D18 2
+Net 6 "/CPU/GO" "GO"
+ R33 1
+ U4 6
+ D18 1
+ P7 2
+Net 7 "/CPU/TX-UART2" "TX-UART2"
+ P6 2
+ U4 27
+Net 8 "/L4" "L4"
+ D6 1
+ J3 6
+ K18 3
+Net 9 "/L1" "L1"
+ K15 3
+ D3 1
+Net 10 "/CPU/LASER2" "LASER2"
+ K17 3
+ D4 1
+Net 11 "/CPU/LASER3" "LASER3"
+ K16 3
+ D5 1
+ J3 5
+Net 12 "+BATT" "+BATT"
+ P5 4
+ P2 4
+ P3 2
+ J3 4
+ U2 1
+ P1 4
+ U3 24
+ U3 1
+Net 16 "/CPU/PGC" "PGC"
+ J1 5
+ U4 8
+Net 17 "/CPU/PGD" "PGD"
+ J1 4
+ U4 9
+Net 18 "/CPU/MCLR" "MCLR"
+ SW1 2
+ J1 1
+ U4 1
+ R3 2
+Net 19 "+5VD" "+5VD"
+ P7 1
+ J3 2
+ C7 1
+ U4 21
+ C6 1
+ P4 3
+ C5 1
+ U4 11
+ C3 1
+ C4 1
+ U4 40
+ K14 2
+ U2 3
+ P5 2
+ K12 2
+ P6 3
+ P2 2
+ K11 2
+ R3 1
+ K13 2
+ P1 2
+ U4 32
+ D1 1
+ J1 2
+ R32 1
+ P8 2
+Net 20 "/S1" "S1"
+ U4 34
+ K14 3
+Net 21 "/CPU/SERV2" "SERV2"
+ U4 33
+ K13 3
+Net 22 "/S3" "S3"
+ U4 22
+ J3 7
+ K12 3
+Net 23 "/CPU/RX-UART1" "RX-UART1"
+ U4 16
+ P4 4
+Net 24 "/S4" "S4"
+ K11 3
+ J3 8
+ U4 19
+Net 25 "/CPU/SCL" "SCL"
+ P8 3
+ U4 25
+Net 26 "" ""
+ P3 1
+ K1 1
+Net 27 "/CPU/SDA" "SDA"
+ U4 26
+ P8 4
+Net 29 "" ""
+ R1 1
+ D1 2
+Net 30 "" ""
+ D2 2
+ R2 1
+Net 31 "" ""
+ R5 1
+ D4 2
+Net 40 "" ""
+ D3 2
+ R4 1
+Net 41 "" ""
+ R6 1
+ D5 2
+Net 42 "" ""
+ D6 2
+ R7 1
+Net 43 "" ""
+ R31 2
+ D16 1
+Net 44 "" ""
+ R5 2
+ R18 1
+ U4 3
+Net 45 "" ""
+ R7 2
+ U4 5
+ R20 1
+Net 46 "" ""
+ C2 1
+ X1 2
+ U4 13
+Net 47 "" ""
+ X1 1
+ C1 1
+ U4 14
+Net 48 "" ""
+ D17 1
+ R32 2
+Net 49 "" ""
+ R4 2
+ U4 2
+ R17 1
+Net 50 "" ""
+ R6 2
+ R19 1
+ U4 4
+}
+#End

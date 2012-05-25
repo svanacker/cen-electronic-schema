@@ -1,0 +1,31 @@
+update=sam. 15 mai 2010 22:05:07 CEST
+last_client=pcbnew
+[pcbnew]
+version=1
+PadDrlX=276
+PadDimH=630
+PadDimV=630
+BoardThickness=630
+SgPcb45=1
+TxtPcbV=800
+TxtPcbH=600
+TxtModV=600
+TxtModH=600
+TxtModW=120
+VEgarde=100
+DrawLar=150
+EdgeLar=150
+TxtLar=120
+MSegLar=150
+LastNetListRead=EIDE.net
+[pcbnew/libraries]
+LibDir=
+LibName1=supports
+LibName2=/travail/electronique/Schema Kicad/f4debpcb
+LibName3=connect
+LibName4=discret
+LibName5=pin_array
+LibName6=divers
+LibName7=libcms
+LibName8=display
+LibName9=valves

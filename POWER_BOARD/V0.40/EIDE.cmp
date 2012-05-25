@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by Cvpcb (2007-11-29-a) date = 29/11/2008-21:09:25
+
+BeginCmp
+TimeStamp = 4920970D;
+Reference = P1;
+ValeurCmp = CONN_12;
+IdModule  = WEIDMULLER-12;
+EndCmp
+
+BeginCmp
+TimeStamp = 49207E20;
+Reference = P2;
+ValeurCmp = HE10-40;
+IdModule  = HE10_40D;
+EndCmp
+
+BeginCmp
+TimeStamp = 49209E51;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = SIL-3"1/2-4;
+EndCmp
+
+BeginCmp
+TimeStamp = 49209955;
+Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = SIL-3"1/2-4;
+EndCmp
+
+BeginCmp
+TimeStamp = 49209F8B;
+Reference = P5;
+ValeurCmp = CONN_8;
+IdModule  = WEIDMULLER-8;
+EndCmp
+
+BeginCmp
+TimeStamp = 49209FB8;
+Reference = P6;
+ValeurCmp = CONN_6;
+IdModule  = WEIDMULLER-6;
+EndCmp
+
+BeginCmp
+TimeStamp = 49233A15;
+Reference = P7;
+ValeurCmp = CONN_4;
+IdModule  = WEIDMULLER-4;
+EndCmp
+
+BeginCmp
+TimeStamp = 4924892A;
+Reference = P8;
+ValeurCmp = CONN_4;
+IdModule  = WEIDMULLER-4;
+EndCmp
+
+BeginCmp
+TimeStamp = 4924892D;
+Reference = P9;
+ValeurCmp = CONN_4;
+IdModule  = WEIDMULLER-4;
+EndCmp
+
+BeginCmp
+TimeStamp = 4920978B;
+Reference = P10;
+ValeurCmp = CONN_8;
+IdModule  = WEIDMULLER-8;
+EndCmp
+
+EndListe

@@ -1,0 +1,267 @@
+# EESchema Netlist Version 1.1 created  ven. 08 oct. 2010 23:11:02 CEST
+(
+ ( /4CAE3D11 $noname  D1 LED {Lib=LED}
+  (    1 +5VD )
+  (    2 N-000040 )
+ )
+ ( /4CAE3D04 $noname  R2 1.5k {Lib=R}
+  (    1 N-000040 )
+  (    2 GND )
+ )
+ ( /4CAE38EA $noname  P2 CONN_6 {Lib=CONN_6}
+  (    1 N-000036 )
+  (    2 N-000043 )
+  (    3 N-000037 )
+  (    4 N-000038 )
+  (    5 N-000044 )
+  (    6 N-000039 )
+ )
+ ( /4CAE304C $noname  C4 6n8 {Lib=C}
+  (    1 +5VD )
+  (    2 GND )
+ )
+ ( /4CAE304A $noname  C3 6n8 {Lib=C}
+  (    1 +5VD )
+  (    2 GND )
+ )
+ ( /4CAE3048 $noname  C2 6n8 {Lib=C}
+  (    1 +5VD )
+  (    2 GND )
+ )
+ ( /4CAE3046 $noname  C1 6n8 {Lib=C}
+  (    1 +5VD )
+  (    2 GND )
+ )
+ ( /4CAE302E $noname  K4 1_PAD {Lib=1_PAD}
+  (    1 ? )
+ )
+ ( /4CAE302B $noname  K3 1_PAD {Lib=1_PAD}
+  (    1 ? )
+ )
+ ( /4CAE3028 $noname  K2 1_PAD {Lib=1_PAD}
+  (    1 ? )
+ )
+ ( /4CAE3025 $noname  K1 1_PAD {Lib=1_PAD}
+  (    1 ? )
+ )
+ ( /4CAE2FE2 $noname  SW1 SW_PUSH_SMALL {Lib=SW_PUSH_SMALL}
+  (    1 GND )
+  (    2 /RST )
+ )
+ ( /4CACE8B8 $noname  P3 CONN_4 {Lib=CONN_4}
+  (    1 N-000018 )
+  (    2 N-000016 )
+  (    3 N-000014 )
+  (    4 N-000012 )
+ )
+ ( /4CACE7EF $noname  C6 22p {Lib=C}
+  (    1 N-000003 )
+  (    2 GND )
+ )
+ ( /4CACE7EC $noname  C5 22p {Lib=C}
+  (    1 N-000042 )
+  (    2 GND )
+ )
+ ( /4CACE7E5 $noname  X1 CRYSTAL1 {Lib=CRYSTAL1}
+  (    1 N-000042 )
+  (    2 N-000003 )
+ )
+ ( /4CACE5C4 $noname  P7 CAVALIER2 {Lib=CAVALIER2}
+  (    1 /TX )
+  (    2 /SCLTX )
+  (    3 /SCL )
+ )
+ ( /4CACE5B8 $noname  P6 CAVALIER2 {Lib=CAVALIER2}
+  (    1 /RX )
+  (    2 /SDARX )
+  (    3 /SDA )
+ )
+ ( /4CACE278 $noname  J1 RJ12 {Lib=RJ12}
+  (    1 /RST )
+  (    2 +5VD )
+  (    3 GND )
+  (    4 /PGD )
+  (    5 /PGC )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+ )
+ ( /4CACE245 $noname  R1 10k {Lib=R}
+  (    1 +5VD )
+  (    2 /RST )
+ )
+ ( /4CACE226 $noname  P4 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 +5VD )
+  (    3 /SCL )
+  (    4 /SDA )
+ )
+ ( /4CACE220 $noname  P5 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 /RX )
+  (    3 +5VD )
+  (    4 /TX )
+ )
+ ( /4CACE217 $noname  P1 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 +5VD )
+  (    3 ? )
+  (    4 ? )
+  (    5 /UART-TX )
+  (    6 /UART-RX )
+ )
+ ( /4CACE1FD $noname  U1 DSPIC30F4013 {Lib=DSPIC30F4013}
+  (    1 /RST )
+  (    2 N-000036 )
+  (    3 N-000043 )
+  (    4 N-000037 )
+  (    5 N-000038 )
+  (    6 N-000044 )
+  (    7 N-000039 )
+  (    8 /PGC )
+  (    9 /PGD )
+  (   10 ? )
+  (   11 +5VD )
+  (   12 GND )
+  (   13 N-000003 )
+  (   14 N-000042 )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 GND )
+  (   21 +5VD )
+  (   22 ? )
+  (   23 ? )
+  (   24 ? )
+  (   25 /SCLTX )
+  (   26 /SDARX )
+  (   27 /UART-RX )
+  (   28 /UART-TX )
+  (   29 ? )
+  (   30 ? )
+  (   31 GND )
+  (   32 +5VD )
+  (   33 ? )
+  (   34 ? )
+  (   35 N-000012 )
+  (   36 N-000014 )
+  (   37 N-000016 )
+  (   38 N-000018 )
+  (   39 GND )
+  (   40 +5VD )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "/SCLTX" "SCLTX"
+ U1 25
+ P7 2
+Net 2 "/SDARX" "SDARX"
+ U1 26
+ P6 2
+Net 3 "" ""
+ C6 1
+ X1 2
+ U1 13
+Net 12 "" ""
+ U1 35
+ P3 4
+Net 14 "" ""
+ U1 36
+ P3 3
+Net 16 "" ""
+ U1 37
+ P3 2
+Net 18 "" ""
+ P3 1
+ U1 38
+Net 21 "/PGD" "PGD"
+ U1 9
+ J1 4
+Net 22 "/PGC" "PGC"
+ J1 5
+ U1 8
+Net 26 "/SCL" "SCL"
+ P7 3
+ P4 3
+Net 27 "/SDA" "SDA"
+ P4 4
+ P6 3
+Net 28 "GND" "GND"
+ P4 1
+ P5 1
+ C3 2
+ P1 1
+ C4 2
+ C5 2
+ C2 2
+ R2 2
+ C6 2
+ U1 20
+ U1 12
+ U1 31
+ SW1 1
+ J1 3
+ C1 2
+ U1 39
+Net 29 "/RX" "RX"
+ P5 2
+ P6 1
+Net 30 "+5VD" "+5VD"
+ C1 1
+ C2 1
+ C3 1
+ C4 1
+ D1 1
+ R1 1
+ P4 2
+ J1 2
+ U1 32
+ U1 21
+ U1 11
+ U1 40
+ P5 3
+ P1 2
+Net 31 "/TX" "TX"
+ P5 4
+ P7 1
+Net 34 "/UART-TX" "UART-TX"
+ U1 28
+ P1 5
+Net 35 "/UART-RX" "UART-RX"
+ U1 27
+ P1 6
+Net 36 "" ""
+ P2 1
+ U1 2
+Net 37 "" ""
+ P2 3
+ U1 4
+Net 38 "" ""
+ U1 5
+ P2 4
+Net 39 "" ""
+ U1 7
+ P2 6
+Net 40 "" ""
+ R2 1
+ D1 2
+Net 41 "/RST" "RST"
+ J1 1
+ U1 1
+ R1 2
+ SW1 2
+Net 42 "" ""
+ C5 1
+ X1 1
+ U1 14
+Net 43 "" ""
+ U1 3
+ P2 2
+Net 44 "" ""
+ U1 6
+ P2 5
+}
+#End

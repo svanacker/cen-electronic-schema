@@ -1,0 +1,57 @@
+eeschema (2010-05-05 BZR 2356)-stable  >> Creation date: dim. 07 nov. 2010 22:10:27 CET
+
+#Cmp ( ordre = Référence )
+| C1         6n8         ;             
+| C2         6n8         ;             
+| C3         6n8         ;             
+| C4         6n8         ;             
+| C5         22p         ;             
+| C6         22p         ;             
+| D1         LED         ;             
+| J1         RJ12        ;             
+| K1         1_PAD       ;             
+| K2         1_PAD       ;             
+| K3         1_PAD       ;             
+| K4         1_PAD       ;             
+| P1         CONN_6      ;             
+| P2         CONN_6      ;             
+| P3         CONN_4      ;             
+| P4         CONN_4      ;             
+| P5         CONN_4      ;             
+| P6         CAVALIER2   ;             
+| P7         CAVALIER2   ;             
+| R1         10k         ;             
+| R2         1.5k        ;             
+| SW1        SW_PUSH_SMALL;             
+| U1         DSPIC30F4013;             
+| X1         CRYSTAL1    ;             
+#End Cmp
+
+#Cmp ( ordre = Valeur )
+| 1.5k         R2        ;             
+| 10k          R1        ;             
+| 1_PAD        K1        ;             
+| 1_PAD        K2        ;             
+| 1_PAD        K3        ;             
+| 1_PAD        K4        ;             
+| 22p          C5        ;             
+| 22p          C6        ;             
+| 6n8          C1        ;             
+| 6n8          C2        ;             
+| 6n8          C3        ;             
+| 6n8          C4        ;             
+| CAVALIER2    P6        ;             
+| CAVALIER2    P7        ;             
+| CONN_4       P3        ;             
+| CONN_4       P4        ;             
+| CONN_4       P5        ;             
+| CONN_6       P1        ;             
+| CONN_6       P2        ;             
+| CRYSTAL1     X1        ;             
+| DSPIC30F4013 U1        ;             
+| LED          D1        ;             
+| RJ12         J1        ;             
+| SW_PUSH_SMALL SW1       ;             
+#End Cmp
+
+#End List

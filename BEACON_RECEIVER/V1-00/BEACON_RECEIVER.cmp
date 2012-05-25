@@ -1,0 +1,192 @@
+Cmp-Mod V01 Created by CvPCB (2010-05-05 BZR 2356)-stable date = jeu. 07 oct. 2010 23:40:42 CEST
+
+BeginCmp
+TimeStamp = /4CAE3046;
+Reference = C1;
+ValeurCmp = 6n8;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAE3048;
+Reference = C2;
+ValeurCmp = 6n8;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAE304A;
+Reference = C3;
+ValeurCmp = 6n8;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAE304C;
+Reference = C4;
+ValeurCmp = 6n8;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CACE7EC;
+Reference = C5;
+ValeurCmp = 22p;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CACE7EF;
+Reference = C6;
+ValeurCmp = 22p;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAE3D11;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CACE278;
+Reference = J1;
+ValeurCmp = RJ12;
+IdModule  = RJ12_E;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAE3025;
+Reference = K1;
+ValeurCmp = 1_PAD;
+IdModule  = 1PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAE3028;
+Reference = K2;
+ValeurCmp = 1_PAD;
+IdModule  = 1PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAE302B;
+Reference = K3;
+ValeurCmp = 1_PAD;
+IdModule  = 1PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAE302E;
+Reference = K4;
+ValeurCmp = 1_PAD;
+IdModule  = 1PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CACE8C3;
+Reference = K6;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CACE8D9;
+Reference = K7;
+ValeurCmp = 1_PAD;
+IdModule  = 1PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CACE8DD;
+Reference = K8;
+ValeurCmp = 1_PAD;
+IdModule  = 1PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CACE217;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = KK-6-D;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAE38EA;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = KK-6-D;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CACE8B8;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CACE226;
+Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = SIL-3"1/2-4-D;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CACE220;
+Reference = P5;
+ValeurCmp = CONN_4;
+IdModule  = SIL-3"1/2-4-D;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CACE5B8;
+Reference = P6;
+ValeurCmp = CAVALIER2;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CACE5C4;
+Reference = P7;
+ValeurCmp = CAVALIER2;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CACE245;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAE3D04;
+Reference = R2;
+ValeurCmp = 1.5k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAE2FE2;
+Reference = SW1;
+ValeurCmp = SW_PUSH_SMALL;
+IdModule  = SW2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CACE1FD;
+Reference = U1;
+ValeurCmp = DSPIC30F4013;
+IdModule  = DIP-40__600_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CACE7E5;
+Reference = X1;
+ValeurCmp = CRYSTAL1;
+IdModule  = QTZ2;
+EndCmp
+
+EndListe

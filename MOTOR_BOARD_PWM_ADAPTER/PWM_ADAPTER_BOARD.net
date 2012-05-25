@@ -1,0 +1,106 @@
+# EESchema Netlist Version 1.1 created  16/04/2012 21:37:14
+(
+ ( /4E6E66C0 $noname  K4 CONN_3 {Lib=CONN_3}
+  (    1 /PWM2 )
+  (    2 +5V )
+  (    3 GND )
+ )
+ ( /4E6E66BE $noname  K3 CONN_3 {Lib=CONN_3}
+  (    1 /D2 )
+  (    2 +5V )
+  (    3 GND )
+ )
+ ( /4E6E66BC $noname  K2 CONN_3 {Lib=CONN_3}
+  (    1 /PWM1 )
+  (    2 +5V )
+  (    3 GND )
+ )
+ ( /4E6E66B8 $noname  K1 CONN_3 {Lib=CONN_3}
+  (    1 /D1 )
+  (    2 +5V )
+  (    3 GND )
+ )
+ ( /4E6A785B $noname  R1 1k {Lib=R}
+  (    1 N-000018 )
+  (    2 GND )
+ )
+ ( /4E6A784F $noname  D1 LED {Lib=LED}
+  (    1 +5V )
+  (    2 N-000018 )
+ )
+ ( /4E63DABD $noname  P1 CONN_20X2 {Lib=CONN_20X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 +5V )
+  (   12 GND )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 /D1 )
+  (   20 ? )
+  (   21 ? )
+  (   22 /PWM1 )
+  (   23 N-000036 )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+  (   29 ? )
+  (   30 ? )
+  (   31 ? )
+  (   32 ? )
+  (   33 /D2 )
+  (   34 /PWM2 )
+  (   35 ? )
+  (   36 ? )
+  (   37 ? )
+  (   38 ? )
+  (   39 ? )
+  (   40 ? )
+ )
+)
+*
+{ Pin List by Nets
+Net 15 "/D1" "D1"
+ P1 19
+ K1 1
+Net 16 "/PWM1" "PWM1"
+ P1 22
+ K2 1
+Net 17 "/D2" "D2"
+ K3 1
+ P1 33
+Net 18 "" ""
+ R1 1
+ D1 2
+Net 19 "+5V" "+5V"
+ K1 2
+ K4 2
+ P1 11
+ D1 1
+ K3 2
+ K2 2
+Net 40 "GND" "GND"
+ K1 3
+ K2 3
+ K3 3
+ K4 3
+ R1 2
+ P1 12
+Net 41 "/PWM2" "PWM2"
+ K4 1
+ P1 34
+}
+#End
